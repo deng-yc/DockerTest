@@ -11,6 +11,6 @@ spec:
   ports:
     - port: 10000
       targetPort: 10000
-	  nodePort:20210
+	    nodePort: 20210
   selector:
     k8s-app: hicoin-test
